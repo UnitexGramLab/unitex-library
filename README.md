@@ -1,6 +1,3 @@
-unitex-library
-==============
-
 Documentation
 -------------
 Documentation is available in English and French (more translations are welcome). 
