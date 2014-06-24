@@ -51,17 +51,17 @@ Unitex, avec une syntaxe proche du traditionnel main du C.
 
 Par example :
 
-:CheckDic:
+CheckDic
   .. code-block:: cpp
 
-        const char *CheckDic_Argv[] = {"CheckDic","c:\\Users\\GillesVollant\\Ergonotics\\Dela\\ufo-contact.dic","DELAF"};
-        int ret = UnitexTool_public_run_one_tool("CheckDic",3,CheckDic_Argv);
+    const char *CheckDic_Argv[] = {"CheckDic","c:\\Users\\GillesVollant\\Ergonotics\\Dela\\ufo-contact.dic","DELAF"};
+    int ret = UnitexTool_public_run_one_tool("CheckDic",3,CheckDic_Argv);
 
-:Tokenize:
+Tokenize
   .. code-block:: cpp
 
-        const char* Tokenize_Argv[]={"UnitexTool","Tokenize","-a","*english/Alphabet.txt",UfoSntFileVFN};
-        int retTok = UnitexTool_public_run(5,Tokenize_Argv,NULL,NULL);
+    const char* Tokenize_Argv[]={"UnitexTool","Tokenize","-a","*english/Alphabet.txt",UfoSntFileVFN};
+    int retTok = UnitexTool_public_run(5,Tokenize_Argv,NULL,NULL);
 
 .. index::
     pair: Bibliothèque de Liaison; Java
