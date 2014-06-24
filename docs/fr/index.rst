@@ -3,20 +3,30 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Utilisation de la librairie Unitex 3.0
+Librairie Unitex - Guide d'utilisation
 ======================================
 
-Contents:
+`Unitex/GramLab <http:unitexgramlab.org>`_ est un système open source,
+multi-plateforme et multilingue, de traitement de corpus textuels. Ce
+document présente les différents éléments à connaître pour pouvoir
+utiliser efficacement le moteur Unitex lors du développement d’une
+application ayant des besoins liés au traitement du langage naturel.
+
+Sommaire
+========
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
 
+    linking
+    vfs
+    persistence
+    silent
+    copyright
+    credits
 
-
-Indices and tables
-==================
+Indices et tableaux
+===================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
-
