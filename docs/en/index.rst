@@ -12,7 +12,7 @@ dictionaries and grammars represented as finite state transducteurs
 
 This document is a guide to using the Unitex C/C++ library and and the
 Java Native Interface (:abbr:`JNI(Java Native Interface )`), including
-functions introduction and example snippets.
+methods descriptions and example snippets.
 
 Contents:
 
