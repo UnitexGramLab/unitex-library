@@ -13,8 +13,8 @@ Les fichiers virtuels se reconnaissent à un préfixe :
 ==========  ============================================================================== ============
 **Prefix**  **Implementation**                                                             **License**
 ==========  ============================================================================== ============
-``$``       système de fichiers virtuel intégré à partir Unitex 3.0.                       LGPLv2
-``*``       système de fichiers virtuel optimisé Ergonotics pour Unitex 2.1 ou 3.0         propriétaire
+``$:``      système de fichiers virtuel intégré à partir Unitex 3.0.                       LGPLv2
+``*:``      système de fichiers virtuel optimisé Ergonotics pour Unitex 2.1 ou 3.0         Propriétaire
 ==========  ============================================================================== ============
 
 Il existe des fonctions d'accès simplifiées aux fichiers, qui sont compatibles

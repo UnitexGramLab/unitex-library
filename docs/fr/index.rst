@@ -1,7 +1,7 @@
 Librairie Unitex - Guide d'utilisation
 ======================================
 
-`Unitex/GramLab <http:unitexgramlab.org>`_ est un système open source,
+`Unitex/GramLab <http://unitexgramlab.org>`_ est un système open source,
 multi-plateforme et multilingue, de traitement de corpus textuels. Ce
 document présente les différents éléments à connaître pour pouvoir
 utiliser efficacement le moteur Unitex lors du développement d’une

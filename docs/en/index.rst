@@ -1,7 +1,7 @@
 Unitex Library - User's Guide
 =============================
 
-`Unitex/GramLab <http:unitexgramlab.org>`_ is an open source, cross-platform
+`Unitex/GramLab <http://unitexgramlab.org>`_ is an open source, cross-platform
 and multilingual corpus processing suite. Unitex tools are designed to perform
 several natural language processing (:abbr:`NLP(Natural Language Processing)`)
 tasks on a textual corpus relying on linguistic resources such as electronic
