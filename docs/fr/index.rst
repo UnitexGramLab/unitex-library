@@ -8,7 +8,7 @@ utiliser efficacement le moteur Unitex lors du développement d’une
 application ayant des besoins liés au traitement du langage naturel.
 
 Sommaire
-========
+--------
 
 .. toctree::
     :maxdepth: 2
@@ -21,7 +21,7 @@ Sommaire
     credits
 
 Indices et tableaux
-===================
+-------------------
 
 * :ref:`genindex`
 * :ref:`search`
