@@ -14,8 +14,7 @@ This document is a guide to using the Unitex C/C++ library and and the
 Java Native Interface (:abbr:`JNI(Java Native Interface )`), including
 functions introduction and example snippets.
 
-Contents
---------
+Contents:
 
 .. toctree::
     :maxdepth: 2
@@ -28,13 +27,13 @@ Contents
     credits
 
 Indices and tables
-------------------
+==================
 
 * :ref:`genindex`
 * :ref:`search`
 
 Contributing
-------------
+============
 
 We welcome everyone to contribute to improve this guide. Below are some of the
 things that you can do to contribute:
