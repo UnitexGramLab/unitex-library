@@ -55,15 +55,16 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # Documentation prolog
-rst_prolog = """
+rst_prolog = u"""
 
   .. note::
 
-    This documentation is still a work in progress. If you have any issues or
-    questions, please ask on the unitex-devel mailing list or file a bug
-    in our `issue tracker`_.
+    Cette documentation est en cours de rédaction. Elle peut contenir des erreurs
+    et des informations peuvent manquer. Si vous avez des commentaires ou questions,
+    merci de nous contacter sur la liste de diffusion unitex-devel ou de remplir
+    un rapport de bogue en utilisant notre `système de suivi des incidents`_.
 
-  .. _issue tracker: https://github.com/UnitexGramLab/unitex-library/issues
+  .. _système de suivi des incidents: https://github.com/UnitexGramLab/unitex-library/issues
 """
 
 # Documentation epilog
