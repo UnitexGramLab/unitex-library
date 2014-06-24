@@ -5,3 +5,11 @@
  * Sphinx RTFD stylesheet override.
  *
  */
+
+.wy-side-nav-search {
+  background-color: #da251d !important;
+}
+
+.wy-side-nav-search input[type="text"] {
+    border-color: #d0332c !important;
+}
