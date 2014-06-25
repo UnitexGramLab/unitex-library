@@ -9,7 +9,6 @@ dictionaries and grammars represented as finite state transducteurs
 (:abbr:`FSTs(Finite State Transducteurs)`), recursive transition networks
 (:abbr:`RTNs(Recursive Transition Networks)`) and lexicon-grammars.
 
-
 This document is a guide to using the Unitex C/C++ library and and the
 Java Native Interface (:abbr:`JNI(Java Native Interface )`), including
 methods descriptions and example snippets.
