@@ -6,7 +6,7 @@ and multilingual corpus processing suite. Unitex tools are designed to perform
 several natural language processing (:abbr:`NLP(Natural Language Processing)`)
 tasks on a textual corpus relying on linguistic resources such as electronic
 dictionaries and grammars represented as finite state transducteurs
-(:abbr:`FSTs(Finite State Transducteurs)`), recursive transition networks
+(:abbr:`FSTs(Finite State Transducers)`), recursive transition networks
 (:abbr:`RTNs(Recursive Transition Networks)`) and lexicon-grammars.
 
 This document is a guide to using the Unitex C/C++ library and and the
