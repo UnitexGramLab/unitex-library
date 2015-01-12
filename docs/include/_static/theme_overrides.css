@@ -13,3 +13,11 @@
 .wy-side-nav-search input[type="text"] {
     border-color: #d0332c !important;
 }
+
+.wy-nav-top {
+  background: none repeat scroll 0% 0% #da251d !important;
+}    
+
+.wy-menu-vertical a:active {
+  background-color: #da251d !important;
+}
