@@ -74,7 +74,7 @@ rst_epilog = """
 
 # General information about the project.
 project = u'Librairie Unitex'
-copyright = u'Université Paris-Est Marne-la-Vallée, 2001-2014'
+copyright = u'Université Paris-Est Marne-la-Vallée, 2001-2015'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
