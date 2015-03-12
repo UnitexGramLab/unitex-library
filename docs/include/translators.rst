@@ -1,1 +1,1 @@
-:English:   * Cristian Martinez <cristian.martinez@univ-paris-est.fr>
+:English:   * Cristian Martinez <cristian.martinez_at_univ-paris-est.fr>
