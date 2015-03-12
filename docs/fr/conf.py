@@ -73,7 +73,7 @@ rst_epilog = """
 """
 
 # General information about the project.
-project = u'Librairie Unitex'
+project = u'Bibliothèque Unitex'
 copyright = u'Université Paris-Est Marne-la-Vallée, 2001-2015'
 
 # The version info for the project you're documenting, acts as replacement for
