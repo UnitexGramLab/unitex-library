@@ -9,7 +9,7 @@ Auteurs
 L'auteur de ce document, en version française, est Gilles Vollant
 <gilles\_at\_ergonotics.com> de la société Ergonotics. Si vous voulez en
 savoir davantage sur la collaboration d'Ergonotics au projet |ugl|,
-vitez le site : http://www.ergonotics.com/unitex-contribution/
+visitez le site : http://www.ergonotics.com/unitex-contribution/
 
 Collaborateurs
 ++++++++++++++
