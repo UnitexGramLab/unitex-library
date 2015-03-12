@@ -34,13 +34,17 @@ Indices and tables
 Contributing
 ============
 
-We welcome everyone to contribute to improve this guide. Below are some of the
-things that you can do to contribute:
+We welcome everyone to contribute to improve these guidelines. Below are some of
+the things that you can do to contribute:
 
+-  Learn a bit about the `RST <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`__
+   (reStructuredText) markup language and `Sphinx <http://sphinx-doc.org/rest.html>`__
+   for creating documentation. A Restructured Text (reST) and Sphinx CheatSheet is available
+   `here <http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`__   
 -  `Fork us <https://github.com/UnitexGramLab/unitex-library/fork>`__ and `request
    a pull <https://github.com/UnitexGramLab/unitex-library/pulls>`__ to the
    `develop <https://github.com/UnitexGramLab/unitex-library/tree/develop>`__
    branch.
--  Submit `bug reports or feature
-   requests <https://github.com/UnitexGramLab/unitex-library/issues>`__ to GitHub.
-
+-  Alternately, if you don't want to learn RST and Sphinx, submit a `bug report
+   or a feature request <https://github.com/UnitexGramLab/unitex-library/issues>`__ to
+   our GitHub.
