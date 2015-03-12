@@ -1,8 +1,8 @@
 .. _linking:
 
-=============================
+===============================
 Invoquer la bibliothèque Unitex
-=============================
+===============================
 
 Unitex peut être compilé en tant que bibliothèque dynamique standard,
 exportant des fonctions C, appelable à partir de votre logiciel, ou
