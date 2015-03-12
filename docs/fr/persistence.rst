@@ -12,7 +12,7 @@ de pré-charger ces ressources avant d'appeler les outils Unitex.
 
 Pour cela, il existe pour chaque type de ressource (dictionnaire, graphe et alphabet)
 une fonction de pré-chargement. Cette fonction retourne le nom de la ressource
-persistente (dans le buffer ``persistent_filename_buffer`` de taille ``buffer_size``
+persistante (dans le buffer ``persistent_filename_buffer`` de taille ``buffer_size``
 qui devra être fourni par l'appelant en C, comme valeur de retour des fonctions Java).
 
 .. note::
