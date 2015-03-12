@@ -1,1 +1,2 @@
-* Cristian Martinez <me\_at\_martinec.org>
+* Cristian Martinez <cristian.martinez@univ-paris-est.fr>
+* Eric Laporte <eric.laporte@univ-paris-est.fr>
