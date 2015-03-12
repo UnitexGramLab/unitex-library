@@ -48,7 +48,7 @@ C
                                           t_fnc_stdOutWrite* p_fnc_stdOutWrite,void** p_privatePtr);
 
 
-L'implémentation C permet de plus de rédiger les sorties vers une fonction callback.
+L'implémentation C permet de plus de rediriger les sorties vers une fonction callback.
 
 .. code-block:: cpp
 
