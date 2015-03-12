@@ -1,23 +1,23 @@
 .. _linking:
 
 =============================
-Lien avec la librairie Unitex
+Invoquer la bibliothèque Unitex
 =============================
 
-Unitex peut être compilé en tant que librairie dynamique standard,
+Unitex peut être compilé en tant que bibliothèque dynamique standard,
 exportant des fonctions C, appelable à partir de votre logiciel, ou
-en tant que librairie JNI, appelable à partir d’un programme Java.
+en tant que bibliothèque JNI, appelable à partir d’un programme Java.
 
 .. note::
-    L'interface JNI est une librairie dynamique standard du
+    L'interface JNI est une bibliothèque dynamique standard du
     système, qui exporte en plus des fonctions C des fonctions JNI pour Java.
     `Qui peut le plus peut le moins` : on peut appeler les fonctions C à partir
-    de la librairie JNI.
+    de la bibliothèque JNI.
 
 Ensuite, chaque outil Unitex est appelé avec des paramètres similaires à
 ceux utilisés avec les outils en ligne de commande.
 
-Chaque outil Unitex est susceptible d'être appelé à partir de la librairie.
+Chaque outil Unitex est susceptible d'être appelé à partir de la bibliothèque.
 Les outils les plus testés, adaptés et optimisés à une utilisation en
 bibliothèque sont ceux dédiés à l'exécution de graphes, en comparaison à ceux
 destinés à leur création :
@@ -40,8 +40,8 @@ destinés à leur création :
 C
 #
 
-Les deux fonctions suivantes permettent d’appeler un outil de la librairie
-Unitex, avec une syntaxe proche du traditionnel main du C.
+Les deux fonctions suivantes permettent d’appeler un outil de la bibliothèque
+Unitex, avec une syntaxe proche du traditionnel ``main()`` du C.
 
 .. code-block:: cpp
 
@@ -49,7 +49,7 @@ Unitex, avec une syntaxe proche du traditionnel main du C.
     int UnitexTool_public_run(int argc,char* const argv[],int* p_number_done,struct pos_tools_in_arg* ptia);
     int UnitexTool_public_run_one_tool(const char*toolname,int argc,char* const argv[]);
 
-Par example :
+Par exemple :
 
 CheckDic
   .. code-block:: cpp
