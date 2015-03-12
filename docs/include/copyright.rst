@@ -35,3 +35,13 @@ terms of the GNU Lesser General Public License,
 version 2.1 (LGPLv2).
 
 :download: http://www.gnu.org/licenses/lgpl-2.1.txt
+
+LGPL-LR: Lesser General Public License For Linguistic Resources
+###############################################################
+
+Linguistic resources, as electronic dictionaries and local grammars,
+are licensed under the terms of the Lesser General Public License
+For Linguistic Resources (LGPL-LR)
+
+:download: http://bit.do/LGPL-LR
+
