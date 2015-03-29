@@ -16,6 +16,8 @@ things that you can do to contribute:
 -  [Fork us](https://github.com/UnitexGramLab/unitex-library/fork) and [request a pull](https://github.com/UnitexGramLab/unitex-library/pulls) to the [develop branch](https://github.com/UnitexGramLab/unitex-library/tree/develop).
 -  Submit [bug reports or feature requests](https://github.com/UnitexGramLab/unitex-library/issues)
 
+--
+
 Copyright (C) 2014-2015 Université Paris-Est Marne-la-Vallée. 
 
 [unitex]: http://unitexgramlab.org
