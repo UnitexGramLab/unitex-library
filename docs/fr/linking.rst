@@ -48,6 +48,13 @@ Unitex, avec une syntaxe proche du traditionnel ``main()`` du C.
     #include "UnitexTool.h"
     int UnitexTool_public_run(int argc,char* const argv[],int* p_number_done,struct pos_tools_in_arg* ptia);
     int UnitexTool_public_run_one_tool(const char*toolname,int argc,char* const argv[]);
+	
+A partir de la révision 4012 d'Unitex 3.1 beta, il est possible d'utiliser UnitexTool_public_run_string
+en utilisant une simple chaine de caractère avec les commandes:
+
+    int UnitexTool_public_run_string(const char* cmd_line);
+    int UnitexTool_public_run_string_ret_infos(const char* cmd_line, int* p_number_done, struct pos_tools_in_arg* ptia);
+	
 
 Par exemple :
 
@@ -57,12 +64,20 @@ CheckDic
     const char *CheckDic_Argv[] = {"CheckDic","c:\\Users\\GillesVollant\\Ergonotics\\Dela\\ufo-contact.dic","DELAF"};
     int ret = UnitexTool_public_run_one_tool("CheckDic",3,CheckDic_Argv);
 
+	ou
+	
+	int ret = UnitexTool_public_run_string("UnitexTool CheckDic");
+	
 Tokenize
   .. code-block:: cpp
 
     const char* Tokenize_Argv[]={"UnitexTool","Tokenize","-a","*english/Alphabet.txt",UfoSntFileVFN};
     int retTok = UnitexTool_public_run(5,Tokenize_Argv,NULL,NULL);
 
+	ou
+	
+	int retTok = UnitexTool_public_run_string("UnitexTool Tokenize -a \"*english/Alphabet.txt\"");
+		
 .. index::
     pair: Bibliothèque de Liaison; Java
 
