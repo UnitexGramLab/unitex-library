@@ -46,6 +46,13 @@ C
                                            char* persistent_filename_buffer,
                                            size_t buffer_size);
 
+``persistence_public_is_persisted_dictionary_filename``
+-------------------------------------------------
+
+.. code-block:: cpp
+
+    int persistence_public_is_persisted_dictionary_filename(const char*filename);
+    
 ``persistence_public_unload_dictionary``
 ----------------------------------------
 
@@ -61,6 +68,13 @@ C
     int persistence_public_load_fst2(const char* filename,
                                      char* persistent_filename_buffer,
                                      size_t buffer_size);
+
+``persistence_public_is_persisted_fst2_filename``
+-------------------------------------------------
+
+.. code-block:: cpp
+
+    int persistence_public_is_persisted_fst2_filename(const char*filename);
 
 ``persistence_public_unload_fst2``
 ----------------------------------
@@ -78,13 +92,19 @@ C
                                          char* persistent_filename_buffer,
                                          size_t buffer_size);
 
+``persistence_public_is_persisted_alphabet_filename``
+-------------------------------------------------
+
+.. code-block:: cpp
+
+    int persistence_public_is_persisted_alphabet_filename(const char*filename);
+
 ``persistence_public_unload_alphabet``
 --------------------------------------
 
 .. code-block:: cpp
 
     void persistence_public_unload_alphabet(const char* filename);
-
 
 .. index::
     pair: Persistance des ressources; Java
