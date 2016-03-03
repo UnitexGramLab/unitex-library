@@ -58,8 +58,8 @@ optimisé disponible sous Unitex 3.0 :
 .. code-block:: cpp
 
     const char* getVirtualFilePrefix() {
-      if (UnitexAbstractPathExists("*") != 0) {
-        return "*";
+      if (UnitexAbstractPathExists("*:") != 0) {
+        return "*:";
       }
 
       if (UnitexAbstractPathExists("$:") != 0) {
