@@ -61,6 +61,7 @@ en utilisant une simple chaine de caractère avec les commandes:
 Par exemple :
 
 CheckDic
+********
 
   .. code-block:: cpp
 
@@ -72,6 +73,7 @@ CheckDic
     int ret = UnitexTool_public_run_string("UnitexTool CheckDic");
 	
 Tokenize
+********
 
   .. code-block:: cpp
 
