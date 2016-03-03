@@ -7,8 +7,8 @@ Persistent data access layer
 Unitex language-related resources such as graphes ``.fst2``, dictionaries
 ``.bin`` and ``.inf`` files, may become too large or complex, thus slow
 to load. To minimize the load time, the Unitex shared library provides some
-useful functions to preload these resources explicitly and use them into
-any function trying to have access.
+useful functions to preload these resources explicitly and reference them
+when calling other functions.
 
 For each type of resource (dictionary, graph or alphabet), there exists a
 preload function. These functions return, in the buffer pointed to
