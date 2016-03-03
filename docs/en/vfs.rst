@@ -5,7 +5,7 @@ File I/O and Unitex Virtual File System access
 ==============================================
 
 Unitex tools have a high I/O workload. To improve the I/O performance
-it is possible to use the Unitex (: abbr: `VFS (Virtual File System)`)
+it is possible to use the Unitex (:abbr:`VFS(Virtual File System)`)
 access layer which, at an application-level, behaves like a RAM drive
 and locate files on it.
 
