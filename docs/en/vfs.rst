@@ -61,8 +61,8 @@ following function:
 .. code-block:: cpp
 
     const char* getVirtualFilePrefix() {
-      if (UnitexAbstractPathExists("*") != 0) {
-        return "*";
+      if (UnitexAbstractPathExists("*:") != 0) {
+        return "*:";
       }
 
       if (UnitexAbstractPathExists("$:") != 0) {
