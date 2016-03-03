@@ -79,7 +79,7 @@ Java
   public native static boolean setStdErrTrashMode(boolean flushMode);
 
 
-To disable all the Unitex console outputs you could cat: 
+To disable all the Unitex console outputs you could call: 
 
 .. code-block:: java
 
