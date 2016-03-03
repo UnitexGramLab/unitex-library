@@ -61,12 +61,12 @@ Par exemple :
 CheckDic
   .. code-block:: cpp
 
-    const char *CheckDic_Argv[] = {"CheckDic","c:\\Users\\GillesVollant\\Ergonotics\\Dela\\ufo-contact.dic","DELAF"};
+    const char *CheckDic_Argv[] = {"CheckDic","c:\\foo\\bar.dic","DELAF"};
     int ret = UnitexTool_public_run_one_tool("CheckDic",3,CheckDic_Argv);
 
-	ou
+    // ou
 	
-	int ret = UnitexTool_public_run_string("UnitexTool CheckDic");
+    int ret = UnitexTool_public_run_string("UnitexTool CheckDic");
 	
 Tokenize
   .. code-block:: cpp
@@ -74,9 +74,9 @@ Tokenize
     const char* Tokenize_Argv[]={"UnitexTool","Tokenize","-a","*english/Alphabet.txt",UfoSntFileVFN};
     int retTok = UnitexTool_public_run(5,Tokenize_Argv,NULL,NULL);
 
-	ou
+    // ou
 	
-	int retTok = UnitexTool_public_run_string("UnitexTool Tokenize -a \"*english/Alphabet.txt\"");
+    int retTok = UnitexTool_public_run_string("UnitexTool Tokenize -a \"*english/Alphabet.txt\"");
 		
 .. index::
     pair: Bibliothèque de Liaison; Java
