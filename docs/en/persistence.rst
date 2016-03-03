@@ -19,9 +19,9 @@ equal to ``buffer_size``.
 .. warning::
 
   After to preload a dictionary file, do not modify or remove it.
-  Under some scenarios, a file memory-mapping strategy might being used.
-  As result, your program may produces unpredictable results or stop to 
-  working.
+  Under the propietary VFS implementation, a file memory-mapping strategy 
+  might being used. As result, your program may produces unpredictable 
+  results or stop to working.
 
 .. note::
 
