@@ -59,7 +59,7 @@ character buffer using ``UnitexTool_public_run_string()`` as follows:
 For instance :
 
 CheckDic
-
+********
   .. code-block:: cpp
 
     const char *CheckDic_Argv[] = {"CheckDic","c:\\foo\\bar.dic","DELAF"};
@@ -70,6 +70,7 @@ CheckDic
     int ret = UnitexTool_public_run_string("UnitexTool CheckDic");
 	
 Tokenize
+********
 
   .. code-block:: cpp
 
