@@ -52,6 +52,8 @@ Unitex, avec une syntaxe proche du traditionnel ``main()`` du C.
 A partir de la révision 4012 d'Unitex 3.1 beta, il est possible d'utiliser UnitexTool_public_run_string
 en utilisant une simple chaine de caractère avec les commandes:
 
+.. code-block:: cpp
+
     int UnitexTool_public_run_string(const char* cmd_line);
     int UnitexTool_public_run_string_ret_infos(const char* cmd_line, int* p_number_done, struct pos_tools_in_arg* ptia);
 	
@@ -59,6 +61,7 @@ en utilisant une simple chaine de caractère avec les commandes:
 Par exemple :
 
 CheckDic
+
   .. code-block:: cpp
 
     const char *CheckDic_Argv[] = {"CheckDic","c:\\foo\\bar.dic","DELAF"};
@@ -69,6 +72,7 @@ CheckDic
     int ret = UnitexTool_public_run_string("UnitexTool CheckDic");
 	
 Tokenize
+
   .. code-block:: cpp
 
     const char* Tokenize_Argv[]={"UnitexTool","Tokenize","-a","*english/Alphabet.txt",UfoSntFileVFN};
