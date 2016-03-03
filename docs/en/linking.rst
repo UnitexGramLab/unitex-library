@@ -70,6 +70,7 @@ CheckDic
     int ret = UnitexTool_public_run_string("UnitexTool CheckDic");
 	
 Tokenize
+
   .. code-block:: cpp
 
     const char* Tokenize_Argv[]={"UnitexTool","Tokenize","-a","*english/Alphabet.txt",UfoSntFileVFN};
