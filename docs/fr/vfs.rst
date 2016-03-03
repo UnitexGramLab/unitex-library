@@ -75,9 +75,12 @@ optimisé disponible sous Unitex 3.0 :
 
 ``GetUnitexFileReadBuffer`` permet d'obtenir un pointeur en lecture seule sur
 le contenu d'un fichier. Ce pointeur sera valide jusqu'à l'appel de la fonction
-``CloseUnitexFileReadBuffer`` correspondant, sachant que ce fichier ne doit en
-aucun cas être modifié (et à plus forte raison supprimé) entre l'appel de
-``GetUnitexFileReadBuffer`` et de ``CloseUnitexFileReadBuffer``.
+``CloseUnitexFileReadBuffer`` correspondant, 
+
+.. warning::
+
+    Le fichier ne doit en aucun cas être modifié (et à plus forte raison supprimé) 
+    entre l'appel de ``GetUnitexFileReadBuffer`` et de ``CloseUnitexFileReadBuffer``.
 
 .. code-block:: cpp
 
@@ -88,8 +91,8 @@ aucun cas être modifié (et à plus forte raison supprimé) entre l'appel de
 -------------------
 
 ``WriteUnitexFile`` permet de créer un fichier à partir d'un ou deux buffers
-binaires mémoires (si un seul buffer est utile, il suffira de positionner
-buffer_suffix à NULL et size_suffix à zéro).
+binaires (si un seul buffer est utile, il suffira de positionner ``buffer_suffix``
+à ``NULL`` et ``size_suffix`` à ``0``).
 
 .. code-block:: cpp
 
