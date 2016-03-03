@@ -40,7 +40,7 @@ C
 #
 
 The following two functions call a Unitex tool from the Unitex library, the 
-syntax used is similar to call the ``main()`` function from a C.
+syntax used is similar to call the ``main()`` function from C.
 
 .. code-block:: cpp
 
@@ -60,6 +60,7 @@ For instance :
 
 CheckDic
 ********
+
   .. code-block:: cpp
 
     const char *CheckDic_Argv[] = {"CheckDic","c:\\foo\\bar.dic","DELAF"};
