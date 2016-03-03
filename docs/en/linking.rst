@@ -56,7 +56,7 @@ character buffer using ``UnitexTool_public_run_string()`` as follows:
     int UnitexTool_public_run_string(const char* cmd_line);
     int UnitexTool_public_run_string_ret_infos(const char* cmd_line, int* p_number_done, struct pos_tools_in_arg* ptia);
 
-For instance :
+For instance:
 
 CheckDic
 ********
