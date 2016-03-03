@@ -6,7 +6,7 @@ Linking your application
 
 Unitex could be compiled into a shared library which exports all the engine
 high-level functions, and then that shared library linked when compiling an 
-application. It is also possible to compiled Unitex into a JNI library,
+application. It is also possible to compile Unitex into a JNI library,
 and using it from Java.
 
 .. note::
