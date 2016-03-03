@@ -20,6 +20,6 @@ In chronological order of the first contribution:
 Translators
 +++++++++++
 
-Following people have contributed to translation of this document:
+The following people have contributed to the translation of this document:
 
 .. include:: ../include/translators.rst
