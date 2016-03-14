@@ -40,7 +40,7 @@ C
 #
 
 The following two functions call a Unitex tool from the Unitex library, the 
-syntax used is similar to call the ``main()`` function from C.
+used syntax is similar to call the ``main()`` function from C.
 
 .. code-block:: cpp
 
