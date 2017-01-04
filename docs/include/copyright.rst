@@ -6,7 +6,7 @@ Copyright
 
 |today|
 
-Copyright 2016, Université Paris-Est Marne-la-Vallée
+Copyright 2017, Université Paris-Est Marne-la-Vallée
 
 Licenses
 ========
