@@ -18,7 +18,7 @@ things that you can do to contribute:
 
 --
 
-Copyright (C) 2016 Université Paris-Est Marne-la-Vallée 
+Copyright (C) 2017 Université Paris-Est Marne-la-Vallée 
 
 [unitex]: http://unitexgramlab.org
 
